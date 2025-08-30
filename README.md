@@ -65,3 +65,7 @@ Regulatory Compliance: Authorities can audit the entire system
 Economic Incentive: Producers monetize green hydrogen production
 Trust & Verification: Cryptographic proof eliminates fraud
 This creates a complete carbon credit marketplace with blockchain-backed authenticity for the green hydrogen economy.
+
+Screenshots
+<img width="1316" height="805" alt="image" src="https://github.com/user-attachments/assets/92360a3c-ac78-4813-ada7-43c5b2ef2521" />
+
