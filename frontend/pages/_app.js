@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import '../styles.css';
+import { AuthProvider } from '../src/context/AuthContext'; // <-- Add this line
 
 const theme = createTheme({
   palette: {
@@ -30,7 +31,9 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
       <CssBaseline />
-      <Component {...pageProps} />
+      <AuthProvider>
+        <Component {...pageProps} />
+      </AuthProvider>
     </ThemeProvider>
   );
 }
